@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.3rem;
+  color: #40514E;
+  background-color: #F6FBF4;
+}
+
+h1 {
+  font-size: 5.625rem;
+  font-family: 'Kaushan Script', cursive;
+  margin: 10% auto 0 auto;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 2.8rem;
+  color: #66BFBF;
+  font-weight: bold;
+  line-height: 2;
+  padding-bottom: 2px;
+}
+
+h3 {
+  font-family: 'Kanit', sans-serif;
+  color: #11999E;
+}
+
+span {
+  text-decoration: underline;
+}
+
+a {
+  color: #11999E;
+}
+
+
+p {
+  font-weight: bold;
+  line-height: 2;
+  font-family: 'Fira Sans', sans-serif;
+
+}
+
+hr {
+  border-color: #DAEAF1;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  width: 3%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/************CLASS SELECTOR****************/
+.top-container {
+  background-color: #EAF6F6;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.profile-picture {
+  width: 10%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.swords {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.fight {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  color: #11999E;
+}
+
+.myicon {
+  width: 1.5%;
+  margin: 10px 5px auto 5px;
+  transition: .3s;
+}
+
+.myicon:hover {
+  width: 2%;
+}
+
+.middle-container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.bottom-container {
+  margin: 30px auto 0 auto;
+  padding-top: 30px;
+  padding-bottom: 0;
+  background-color: #66BFBF;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 9px 0 0 0;
+  margin-bottom: 0;
+}
+
+.cloud-top {
+  position: absolute;
+  top: 5%;
+  right: 22%;
+}
+
+.cloud-bottom {
+  position: absolute;
+  left: 25%;
+}
+
+.mountain {
+width: 50%;
+
+}
+
+.get-in-touch {
+  word-spacing: 0.5rem;
+}
+
+
+.outro {
+  width: 40%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.btn {
+  margin: auto;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Fira Sans', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
